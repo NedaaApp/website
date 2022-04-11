@@ -1,23 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { MatomoProvider, createInstance } from '@datapunt/matomo-tracker-react'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
-const instance = createInstance({
-  urlBase: 'https://nedaa.io/piwik/',
-  siteId: 1,
-  configurations: { 
-  }
-})
 
 ReactDOM.render(
   <React.StrictMode>
-    <MatomoProvider value={instance}>
     <App />
-    </MatomoProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
