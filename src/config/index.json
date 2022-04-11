@@ -1,0 +1,30 @@
+{
+    "org": {
+      "name": "Nedaa | نِداء",
+      "logo": "/assets/images/logo.png"
+    },
+    "callToAction": {
+      "text": "",
+      "href": "#"
+    },
+    "details": {
+      "title": "Nedaa | نِداء",
+      "subtitle": "App",
+      "description": "Prayer Times Reminder App!",
+      "img": "",
+      "iosDownload": {
+        "text": "iOS",
+        "href": "#"
+      },
+      "secondaryAction": {
+        "text": "Email us",
+        "href": "mailto:support@nedaa.io"
+      }
+    },
+    "about": {
+      "socialMedia": {
+        "github": "https://github.com/NedaaApp"
+      }
+    }
+  }
+  
