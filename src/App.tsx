@@ -5,7 +5,6 @@ import Header from "./components/Header";
 import Logo from "./components/Logo";
 import About from "./components/About";
 import Canvas from "./components/Canvas";
-import LazyShow from "./components/LazyShow";
 
 function App() {
   return (
@@ -28,12 +27,11 @@ function App() {
         </div>
       </div>
       <Logo />
-      <LazyShow>
-        <>
-          <Canvas />
-          <About />
-        </>
-      </LazyShow>
+
+      <>
+        <Canvas />
+        <About />
+      </>
     </div>
   );
 }
