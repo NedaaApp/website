@@ -13,7 +13,11 @@
       "description": "Prayer Times Reminder App!",
       "img": "",
       "iosDownload": {
-        "text": "iOS",
+        "text": " App Store",
+        "href": "#"
+      },
+      "androidDownload": {
+        "text": "Google Play",
         "href": "#"
       },
       "secondaryAction": {
@@ -21,6 +25,20 @@
         "href": "mailto:support@nedaa.io"
       }
     },
+    "navigation": [
+      {
+        "name": "Home",
+        "href": "/"
+      },
+      {
+        "name": "Prayer Times",
+        "href": "prayer-times"
+      },
+      {
+        "name": "About",
+        "href": "about"
+      }
+    ],
     "about": {
       "socialMedia": {
         "github": "https://github.com/NedaaApp"
