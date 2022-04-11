@@ -1,8 +1,10 @@
 import config from "../config/index.json";
 const GooglePlayButton = () => {
     const { details } = config;
+    const screenSize = window.innerWidth;
+    const buttonWidth = screenSize < 980 ? "w-full" : "w-48";
     return <>
-        <button type="button" className="flex  mt-3 w-48 h-14 bg-transparent text-black border border-black rounded-xl items-center justify-center">
+        <button type="button" className={`flex  mt-3 ${buttonWidth} h-14 bg-transparent text-black border border-black rounded-xl items-center justify-center`}>
             <div className="mr-3">
                 <svg viewBox="30 336.7 120.9 129.2" width="30">
                     <path fill="#FFD400" d="M119.2,421.2c15.3-8.4,27-14.8,28-15.3c3.2-1.7,6.5-6.2,0-9.7  c-2.1-1.1-13.4-7.3-28-15.3l-20.1,20.2L119.2,421.2z">

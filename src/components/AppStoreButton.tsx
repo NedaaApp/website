@@ -1,12 +1,15 @@
+import { useEffect } from "react";
 import config from "../config/index.json";
 
 const AppStoreButton = () => {
     const { details } = config;
+    const screenSize = window.innerWidth;
+    const buttonWidth = screenSize < 1200 ? "w-full" : "w-48";
   return (
     <>
       <button
         type="button"
-        className="flex mt-3 w-48 h-14 bg-transparent text-black border border-black rounded-xl items-center justify-center"
+        className={`flex mt-3  ${buttonWidth} h-14 bg-transparent text-black border border-black rounded-xl items-center justify-center`}
       >
         <div className="mr-3">
           <svg viewBox="0 0 384 512" width="30">
