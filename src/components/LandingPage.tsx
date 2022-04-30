@@ -18,9 +18,8 @@ const MainPage = () => {
           {details.description}
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-          <div className="rounded-md shadow">
-            <AppStoreButton />
-          </div>
+          <AppStoreButton />
+
           <div className="mt-3 sm:mt-0 sm:ml-3">
             <GooglePlayButton />
           </div>

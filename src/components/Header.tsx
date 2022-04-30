@@ -25,14 +25,14 @@ const Menu = () => {
       <Popover>
         <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
           <nav
-            className="relative flex items-center justify-between sm:h-10 lg:justify-start"
+            className="relative flex items-center justify-between sm:h-10 lg:justify-between"
             aria-label="Global"
           >
             <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
               <div className="flex items-center justify-between w-full md:w-auto">
-                <a href="#">
+                <a href="/">
                   <span className="sr-only">{name}</span>
-                  <img alt="logo" className="h-16 w-auto sm:h-16" src={logo} />
+                  <img alt="logo" className="h-32 w-auto sm:h-16" src={logo} />
                 </a>
                 <div className="-mr-2 flex items-center md:hidden">
                   <Popover.Button
